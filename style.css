@@ -1,0 +1,58 @@
+.container {
+    /* width: 60%; */
+    position: relative;
+    margin: 0px auto;
+}
+.container-counter {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+.prev {
+    background: none;
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    z-index: 100;
+}
+.next {
+    background: none;
+    position: absolute;
+    top: 40%;
+    right: 0px;
+    z-index: 100;
+}
+.prev img, .next img {
+    width: 50px;
+    height: 50px;
+}
+.container-slider {
+    overflow: hidden;
+    margin: 0px auto;
+}
+.slider {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.slide {
+    position: relative;
+}
+.slide img {
+    display: block;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+.slide p {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
